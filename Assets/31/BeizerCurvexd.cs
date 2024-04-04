@@ -10,6 +10,7 @@ public class BeizerCurvexd : MonoBehaviour
     public Transform a, b, c, d, e;
     private int n;
     public GameObject SI;
+    float timexd;
     // Start is called before the first frame update
     void Awake()
     {
@@ -20,8 +21,9 @@ public class BeizerCurvexd : MonoBehaviour
     void Update()
     {
         SampleCurve();
-        float time = Time.deltaTime;
-        SI.transform.position += Bezier(time*0.00001f);
+        timexd += Time.deltaTime;
+        SI.transform.position = Bezier(timexd/100);
+   
     }
     // Bezier Functions
     public void InitCurve()
