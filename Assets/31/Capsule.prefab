@@ -151,6 +151,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   particle: {fileID: 6444574533546946640}
   meshxd: {fileID: 0}
+  rigoberto: {fileID: 0}
+  speed: 1
 --- !u!1001 &6326298268993936258
 PrefabInstance:
   m_ObjectHideFlags: 0
