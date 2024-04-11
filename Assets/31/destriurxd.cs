@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class destriurxd : MonoBehaviour
 {
-    // Start is called before the first frame update
+    // Destruir las flechas despues de un rato
     void Start()
     {
         StartCoroutine(xd());
