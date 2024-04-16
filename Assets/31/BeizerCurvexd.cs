@@ -28,8 +28,8 @@ public class BeizerCurvexd : MonoBehaviour
     // Bezier Functions
     public void InitCurve()
     {
-        int i = 0;
-        float deltaZ = 5f;
+        //int i = 0;
+        //float deltaZ = 5f;
         /*
         foreach (Transform child in transform)
         {
