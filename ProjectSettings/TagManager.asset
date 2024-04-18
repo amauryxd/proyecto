@@ -7,6 +7,7 @@ TagManager:
   - Barrier
   - Limit
   - Ground
+  - Bomb
   layers:
   - Default
   - TransparentFX
