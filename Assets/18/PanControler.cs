@@ -54,6 +54,6 @@ public class PanControler : MonoBehaviour
             other.GetComponent<Rigidbody>().velocity = hitVelocity;
             other.GetComponent<Rigidbody>().AddTorque(randomTorque, ForceMode.Impulse);
             Debug.Log("xd");
-        }
+        }   
     }
 }
