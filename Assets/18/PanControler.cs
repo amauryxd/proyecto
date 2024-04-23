@@ -8,6 +8,8 @@ public class PanControler : MonoBehaviour
     public float hitTime;
     private Animator animator;
     private Transform target;
+    public KeyCode keycodeLeft;
+    public KeyCode keycodeRight;
 
     // Start is called before the first frame update
     void Start()
@@ -19,11 +21,11 @@ public class PanControler : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(Input.GetKeyDown(KeyCode.LeftArrow)) {
+        if(Input.GetKeyDown(keycodeLeft)) {
             animator.SetTrigger("LeftMove");
             target = leftPlayer;
         }
-        if (Input.GetKeyDown(KeyCode.RightArrow))
+        if (Input.GetKeyDown(keycodeRight))
         {
             animator.SetTrigger("RightMove");
             target = rightPlayer;
@@ -53,7 +55,6 @@ public class PanControler : MonoBehaviour
 
             other.GetComponent<Rigidbody>().velocity = hitVelocity;
             other.GetComponent<Rigidbody>().AddTorque(randomTorque, ForceMode.Impulse);
-            Debug.Log("xd");
         }   
     }
 }

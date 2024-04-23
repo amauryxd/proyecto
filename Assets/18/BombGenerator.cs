@@ -8,12 +8,13 @@ public class BombGenerator : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        InvokeRepeating("CreateBomb", 2, 2);
+        //InvokeRepeating("CreateBomb", 2, 2);
+        CreateBomb();
     }
 
     void CreateBomb()
     {
         GameObject bomb = Instantiate(bombPrefab, transform.position, Quaternion.identity);
-        Destroy(bomb, 10f);
+        //Destroy(bomb, 10f);
     }
 }
