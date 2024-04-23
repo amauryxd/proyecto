@@ -12,7 +12,7 @@ public class BombGenerator : MonoBehaviour
         CreateBomb();
     }
 
-    void CreateBomb()
+    public void CreateBomb()
     {
         GameObject bomb = Instantiate(bombPrefab, transform.position, Quaternion.identity);
         //Destroy(bomb, 10f);

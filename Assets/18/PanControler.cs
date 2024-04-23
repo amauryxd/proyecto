@@ -52,7 +52,7 @@ public class PanControler : MonoBehaviour
             Vector3 P0 = other.transform.position;
             Vector3 hitVelocity = HitVelocity(target, P0);
             Vector3 randomTorque = 100f * Random.onUnitSphere;
-
+            hitTime -= 0.1f;
             other.GetComponent<Rigidbody>().velocity = hitVelocity;
             other.GetComponent<Rigidbody>().AddTorque(randomTorque, ForceMode.Impulse);
         }   

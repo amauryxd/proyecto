@@ -8,6 +8,9 @@ TagManager:
   - Limit
   - Ground
   - Bomb
+  - Ref1
+  - Ref2
+  - Ref3
   layers:
   - Default
   - TransparentFX
