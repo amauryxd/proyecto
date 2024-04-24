@@ -11,7 +11,9 @@ public class GameControllerSarten : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        player1 = true;
+        player2 = true;
+        player3 = true;
     }
 
     // Update is called once per frame
