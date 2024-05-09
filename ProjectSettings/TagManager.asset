@@ -11,6 +11,7 @@ TagManager:
   - Ref1
   - Ref2
   - Ref3
+  - Base
   layers:
   - Default
   - TransparentFX

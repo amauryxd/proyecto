@@ -11,4 +11,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/18/asda.unity
     guid: 9c8d95a4950ae214a8681bb1d576c8e8
+  - enabled: 1
+    path: Assets/22/adfa.unity
+    guid: 24eabe0cc0b056c49abcbb91bcbdb24c
   m_configObjects: {}
