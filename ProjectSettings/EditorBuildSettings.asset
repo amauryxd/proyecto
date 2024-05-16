@@ -14,4 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/22/adfa.unity
     guid: 24eabe0cc0b056c49abcbb91bcbdb24c
+  - enabled: 1
+    path: Assets/23/23.unity
+    guid: 5eaf55331c07d2744b242b34ace1a7cd
   m_configObjects: {}

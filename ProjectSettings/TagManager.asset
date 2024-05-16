@@ -12,6 +12,8 @@ TagManager:
   - Ref2
   - Ref3
   - Base
+  - FoosBallPlayer
+  - Shell
   layers:
   - Default
   - TransparentFX
@@ -22,7 +24,7 @@ TagManager:
   - Barrier
   - Bowl
   - aja
-  - 
+  - PlayerBarrier
   - 
   - 
   - 
